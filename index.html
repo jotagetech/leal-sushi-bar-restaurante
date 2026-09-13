@@ -1,0 +1,523 @@
+<title>Leal Sushi Bar</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800&family=Karla:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Leal Sushi Bar",
+  "image": "https://www.instagram.com/lealsushibar/",
+  "servesCuisine": "Japonesa",
+  "priceRange": "R$ 60 a R$ 80 por pessoa",
+  "telephone": "+5518996727084",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Rua Dorival Rodrigues de Barros, 1396, Centro",
+    "addressLocality": "Lucélia",
+    "addressRegion": "SP",
+    "postalCode": "17780-000",
+    "addressCountry": "BR"
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+      "opens": "18:30",
+      "closes": "22:30"
+    }
+  ],
+  "acceptsReservations": "False",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.4",
+    "reviewCount": "35",
+    "bestRating": "5"
+  },
+  "hasMenu": "#cardapio",
+  "sameAs": ["https://www.instagram.com/lealsushibar/"]
+}
+</script>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <a class="brand" href="#topo">
+      <span class="brand-mark" aria-hidden="true">LSB</span>
+      Leal Sushi Bar
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <path d="M2 5h16M2 10h16M2 15h16" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <nav class="nav" id="site-nav" aria-label="Navegação principal">
+      <a href="#historia">A casa</a>
+      <a href="#cardapio">Cardápio</a>
+      <a href="#eventos">Encomendas e eventos</a>
+      <a href="#visita">Endereço e horário</a>
+      <a class="nav-cta" href="https://wa.me/5518996727084" target="_blank" rel="noopener">Pedir no WhatsApp</a>
+    </nav>
+  </div>
+</header>
+
+<div class="promo-ribbon" id="topo">
+  <div class="wrap">
+    <strong>Hoje:</strong>
+    <span id="promo-text">Aberto das 18h30 às 22h30, presencial e delivery.</span>
+  </div>
+</div>
+
+<main>
+  <section class="hero" aria-label="Apresentação">
+    <div class="hero-copy">
+      <span class="kicker">Lucélia, SP, desde 2019</span>
+      <h1>Sushi de bairro, feito pra chegar quente e sair bonito da barca.</h1>
+      <p class="lede">Presencial e delivery em Lucélia. Cardápio com mais de 90 itens, barcas montadas pra festa e um cardápio de promoções que muda o nome a cada dia da semana.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://wa.me/5518996727084" target="_blank" rel="noopener">Pedir no WhatsApp</a>
+        <a class="btn btn-ghost" href="#cardapio">Ver cardápio completo</a>
+      </div>
+      <div class="hero-meta">
+        <div><b>4,4 / 5</b>Google, 35 avaliações</div>
+        <div><b>Qua a dom</b>18h30 às 22h30</div>
+        <div><b>R$ 60 a R$ 80</b>média por pessoa</div>
+      </div>
+    </div>
+    <figure class="hero-photo">
+      <img src="images/barca_sushi.jpg" alt="Barca de sushi montada do Leal Sushi Bar, com peças variadas de uramaki, hot roll e niguiri, fotografada para pedidos de eventos." width="720" height="1280">
+      <figcaption>Barca montada para encomenda, foto real da casa</figcaption>
+    </figure>
+  </section>
+
+  <section class="info-strip" aria-label="Informações rapidas">
+    <div class="wrap">
+      <div class="info-item">
+        <div class="label">Endereço</div>
+        <div class="value">R. Dorival Rodrigues de Barros, 1396, Centro</div>
+      </div>
+      <div class="info-item">
+        <div class="label">Horário</div>
+        <div class="value">Quarta a domingo, 18h30 às 22h30</div>
+      </div>
+      <div class="info-item">
+        <div class="label">Telefone / WhatsApp</div>
+        <div class="value"><a href="tel:+5518996727084">(18) 99672-7084</a></div>
+      </div>
+      <div class="info-item">
+        <div class="label">Atendimento</div>
+        <div class="value">Presencial, retirada e delivery</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="historia" class="story">
+    <div class="wrap">
+      <figure class="story-photo">
+        <img src="images/detalhe_sushi.jpg" alt="Detalhe de peças de sushi do Leal Sushi Bar em close, foto real da casa." width="1440" height="1660">
+      </figure>
+      <div class="story-text">
+        <span class="kicker">Quem corta o peixe</span>
+        <blockquote>
+          "Sou o Caio, e a cozinha do Leal é minha desde 2019, aqui em Lucélia. Escolho o salmão pelo brilho e pela textura antes de qualquer coisa, e boto a mão em cada barca grande o bastante pra abrir uma festa de aniversário ou uma confraternizacao inteira. A gente leva a cozinha a sério, mas não o resto: por isso toda quarta vira quartou, toda sexta vira sextou, e o cardápio muda de nome antes de mudar de sabor."
+          <br><br>
+          "Presencial ou no delivery, o padrão é o mesmo prato que eu mandaria pra minha própria mesa. Se faltar peixe fresco no dia, a gente fecha o item, não abre mão da qualidade."
+        </blockquote>
+        <cite>Caio Vinicius Leal de Brito, à frente da cozinha do Leal Sushi Bar</cite>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="destaques-h">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="destaques-h">Começos que costumam virar pedido de novo</h2>
+        <p>Quatro pratos reais do cardápio, com foto tirada na própria casa.</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="highlights-scroll">
+        <article class="highlight-card">
+          <div class="ph">
+            <span class="badge">O mais pedido</span>
+            <img src="images/hot_roll_especial.jpg" alt="Hot roll especial do Leal Sushi Bar, empanado e coberto com cobertura cremosa, foto real do prato." width="1440" height="1695">
+          </div>
+          <div class="hc-body">
+            <h3>Hot Roll Especial</h3>
+            <p>8 unidades empanadas, cobertura da casa e um toque defumado no final.</p>
+            <span class="price">R$ 24,90</span>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <div class="ph">
+            <img src="images/uramaki_california.jpg" alt="Uramaki California do Leal Sushi Bar com manga, pepino e kani, foto real do prato." width="1440" height="1800">
+          </div>
+          <div class="hc-body">
+            <h3>Uramaki California <span class="veg-badge">vegetariano</span></h3>
+            <p>Manga, pepino e kani. Leve, fresco e a opção vegetariana mais pedida da casa.</p>
+            <span class="price">R$ 16,90</span>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <div class="ph">
+            <img src="images/barca_sushi.jpg" alt="Barca chisai do Leal Sushi Bar com 34 peças variadas, foto real da casa." width="720" height="1280">
+          </div>
+          <div class="hc-body">
+            <h3>Barca Chisai</h3>
+            <p>34 peças variadas. O ponto de partida de quem vai receber gente em casa.</p>
+            <span class="price">R$ 87,00</span>
+          </div>
+        </article>
+        <article class="highlight-card">
+          <div class="ph">
+            <img src="images/detalhe_sushi.jpg" alt="Detalhe de sashimi e niguiri de salmão do Leal Sushi Bar, foto real da casa." width="1440" height="1660">
+          </div>
+          <div class="hc-body">
+            <h3>Sashimi de Salmão Macaricado</h3>
+            <p>10 fatias maçaricadas na hora, com aquele contraste morno por cima do frio.</p>
+            <span class="price">R$ 38,90</span>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="cardapio" aria-labelledby="cardapio-h">
+    <div class="wrap menu-hero">
+      <h1 id="cardapio-h">Cardápio completo</h1>
+      <p>Preços reais, coletados diretamente do cardápio publicado pela casa. Pedidos pelo WhatsApp (18) 99672-7084, com retirada, entrega ou consumo no local.</p>
+    </div>
+
+    <div class="wrap menu-shell">
+      <nav class="cat-nav" aria-label="Categorias do cardápio">
+        <a href="#cat-promocoes">Promoções da semana</a>
+        <a href="#cat-uramaki">Uramaki</a>
+        <a href="#cat-hotroll">Hot roll</a>
+        <a href="#cat-hossomaki">Hossomaki e joe</a>
+        <a href="#cat-temaki">Temaki e niguiri</a>
+        <a href="#cat-sashimi">Sashimi e harumaki</a>
+        <a href="#cat-combinados">Combinados e porções</a>
+        <a href="#cat-barcas">Barcas</a>
+        <a href="#cat-ceviche">Ceviche e sunomono</a>
+        <a href="#cat-quentes">Pratos quentes</a>
+        <a href="#cat-poke">Poke</a>
+        <a href="#cat-bebidas">Bebidas</a>
+      </nav>
+
+      <div class="menu-cats">
+
+        <div class="menu-cat" id="cat-promocoes">
+          <h2>Promoções da semana</h2>
+          <p class="cat-note">Valores reais de tabela, aplicados no dia indicado. A faixa clara de cada promoção muda conforme o dia, o texto acima (no topo da página) sempre mostra a de hoje.</p>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Quartou, barca chisai + 5 guioza</span><span class="mi-price">R$ 82,00</span></div>
+            <div class="menu-item"><span class="mi-name">Quartou, 8 hot roll + 8 uramaki</span><span class="mi-price">R$ 34,90</span></div>
+            <div class="menu-item"><span class="mi-name">Quintou, barca chisai + 5 guioza</span><span class="mi-price">R$ 82,00</span></div>
+            <div class="menu-item"><span class="mi-name">Quintou, 24 unidades de hot roll</span><span class="mi-price">R$ 54,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sextou, barca chisai + 5 guioza</span><span class="mi-price">R$ 82,00</span></div>
+            <div class="menu-item"><span class="mi-name">Sextou, 16 unidades de hot roll</span><span class="mi-price">R$ 39,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sabadou, barca chisai + porção de hot roll</span><span class="mi-price">R$ 96,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sabadou, 3 porções de hot roll</span><span class="mi-price">R$ 54,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-uramaki">
+          <h2>Uramaki, 8 unidades</h2>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Salmão</span><span class="mi-price">R$ 19,90</span></div>
+            <div class="menu-item"><span class="mi-name">Philadelfia, salmão e cream cheese</span><span class="mi-price">R$ 21,90</span></div>
+            <div class="menu-item"><span class="mi-name">California <span class="veg-badge">vegetariano</span>, manga, pepino e kani</span><span class="mi-price">R$ 16,90</span></div>
+            <div class="menu-item"><span class="mi-name">Dragon fire, salmão apimentado</span><span class="mi-price">R$ 26,90</span></div>
+            <div class="menu-item"><span class="mi-name">Skin, pele de salmão crocante</span><span class="mi-price">R$ 16,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-hotroll">
+          <h2>Hot roll, 8 unidades</h2>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Especial <span class="sig-badge">prato da casa</span></span><span class="mi-price">R$ 24,90</span></div>
+            <div class="menu-item"><span class="mi-name">Philadelfia empanado</span><span class="mi-price">R$ 24,90</span></div>
+            <div class="menu-item"><span class="mi-name">Doritos, empanado e crocante</span><span class="mi-price">R$ 24,90</span></div>
+            <div class="menu-item"><span class="mi-name">Shimeji, cogumelo na manteiga</span><span class="mi-price">R$ 24,90</span></div>
+            <div class="menu-item"><span class="mi-name">Spicy, com toque apimentado</span><span class="mi-price">R$ 24,90</span></div>
+            <div class="menu-item"><span class="mi-name">Onion crispy, cebola crocante</span><span class="mi-price">R$ 24,90</span></div>
+            <div class="menu-item"><span class="mi-name">Smash</span><span class="mi-price">R$ 27,90</span></div>
+            <div class="menu-item"><span class="mi-name">Morango com nutella, 4 unidades</span><span class="mi-price">R$ 17,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-hossomaki">
+          <h2>Hossomaki, 8 unidades, e joe, 2 unidades</h2>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Hossomaki salmão</span><span class="mi-price">R$ 19,00</span></div>
+            <div class="menu-item"><span class="mi-name">Hossomaki philadelfia</span><span class="mi-price">R$ 19,90</span></div>
+            <div class="menu-item"><span class="mi-name">Hossomaki kani</span><span class="mi-price">R$ 16,90</span></div>
+            <div class="menu-item"><span class="mi-name">Hossomaki kapamaki</span><span class="mi-price">R$ 16,90</span></div>
+            <div class="menu-item"><span class="mi-name">Joe philadelfia</span><span class="mi-price">R$ 9,50</span></div>
+            <div class="menu-item"><span class="mi-name">Joe doritos</span><span class="mi-price">R$ 9,50</span></div>
+            <div class="menu-item"><span class="mi-name">Joe shimeji</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Joe skin</span><span class="mi-price">R$ 9,50</span></div>
+            <div class="menu-item"><span class="mi-name">Joe biquinho</span><span class="mi-price">R$ 9,50</span></div>
+            <div class="menu-item"><span class="mi-name">Joe dragon</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Joe smash</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Joe geleia de maracuja</span><span class="mi-price">R$ 9,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-temaki">
+          <h2>Temaki e niguiri</h2>
+          <p class="cat-note">Temaki vendido em unidade, niguiri em duplas.</p>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Temaki salmão completo</span><span class="mi-price">R$ 26,90</span></div>
+            <div class="menu-item"><span class="mi-name">Temaki doritos</span><span class="mi-price">R$ 26,90</span></div>
+            <div class="menu-item"><span class="mi-name">Temaki grelhado</span><span class="mi-price">R$ 26,90</span></div>
+            <div class="menu-item"><span class="mi-name">Temaki sem arroz</span><span class="mi-price">R$ 29,90</span></div>
+            <div class="menu-item"><span class="mi-name">Temaki salmão frito aberto</span><span class="mi-price">R$ 33,90</span></div>
+            <div class="menu-item"><span class="mi-name">Temaki salmão frito</span><span class="mi-price">R$ 29,90</span></div>
+            <div class="menu-item"><span class="mi-name">Niguiri salmão</span><span class="mi-price">R$ 9,50</span></div>
+            <div class="menu-item"><span class="mi-name">Niguiri skin lemon</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Niguiri fire</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Niguiri fire lemon</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Niguiri salmão especial</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Niguiri alho frito</span><span class="mi-price">R$ 9,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-sashimi">
+          <h2>Sashimi e harumaki</h2>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Sashimi salmão, 6 fatias</span><span class="mi-price">R$ 26,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sashimi salmão, 10 fatias</span><span class="mi-price">R$ 26,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sashimi salmão maçaricado, 6 fatias <span class="sig-badge">prato da casa</span></span><span class="mi-price">R$ 28,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sashimi salmão maçaricado, 10 fatias</span><span class="mi-price">R$ 38,90</span></div>
+            <div class="menu-item"><span class="mi-name">Harumaki queijo, 2 unidades</span><span class="mi-price">R$ 14,90</span></div>
+            <div class="menu-item"><span class="mi-name">Harumaki chocolate, 2 unidades</span><span class="mi-price">R$ 14,90</span></div>
+            <div class="menu-item"><span class="mi-name">Harumaki salmão com cream cheese</span><span class="mi-price">R$ 18,90</span></div>
+            <div class="menu-item"><span class="mi-name">Harumaki ouro branco</span><span class="mi-price">R$ 17,90</span></div>
+            <div class="menu-item"><span class="mi-name">Guioza suíno, 5 unidades</span><span class="mi-price">R$ 19,90</span></div>
+            <div class="menu-item"><span class="mi-name">Guioza bovino, 5 unidades</span><span class="mi-price">R$ 19,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-combinados">
+          <h2>Combinados e porções especiais</h2>
+          <p class="cat-note pending"><b>Pendência:</b> a composição exata de cada número de combinado (quais peças entram em cada um) não estava detalhada nas fontes públicas consultadas. Confirmar pelo WhatsApp antes de publicar em produção.</p>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Combinado 1</span><span class="mi-price">R$ 48,90</span></div>
+            <div class="menu-item"><span class="mi-name">Combinado 2</span><span class="mi-price">R$ 49,90</span></div>
+            <div class="menu-item"><span class="mi-name">Combinado 3</span><span class="mi-price">R$ 57,90</span></div>
+            <div class="menu-item"><span class="mi-name">Combinado 4</span><span class="mi-price">R$ 56,90</span></div>
+            <div class="menu-item"><span class="mi-name">Combinado 5</span><span class="mi-price">R$ 45,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sashimi de tilápia, inteira</span><span class="mi-price">R$ 54,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sashimi de tilápia, meia</span><span class="mi-price">R$ 39,90</span></div>
+            <div class="menu-item"><span class="mi-name">Iscas de tilápia, inteira</span><span class="mi-price">R$ 54,90</span></div>
+            <div class="menu-item"><span class="mi-name">Iscas de tilápia, meia</span><span class="mi-price">R$ 39,90</span></div>
+            <div class="menu-item"><span class="mi-name">Iscas de tilápia crocante, inteira</span><span class="mi-price">R$ 57,90</span></div>
+            <div class="menu-item"><span class="mi-name">Iscas de tilápia crocante, meia</span><span class="mi-price">R$ 42,90</span></div>
+            <div class="menu-item"><span class="mi-name">Batata frita, inteira</span><span class="mi-price">R$ 24,90</span></div>
+            <div class="menu-item"><span class="mi-name">Batata frita, meia</span><span class="mi-price">R$ 17,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-barcas">
+          <h2>Barcas, pra dividir ou pra festa</h2>
+          <p class="cat-note">Sob encomenda para aniversários, casamentos, confraternizações e eventos corporativos. Detalhes na seção de encomendas, mais abaixo.</p>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Barca chisai, 34 peças</span><span class="mi-price">R$ 87,00</span></div>
+            <div class="menu-item"><span class="mi-name">Barca subarashi, 44 peças</span><span class="mi-price">R$ 125,00</span></div>
+            <div class="menu-item"><span class="mi-name">Barca chusetsuna, 58 peças</span><span class="mi-price">R$ 145,00</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-ceviche">
+          <h2>Ceviche e sunomono</h2>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Ceviche de salmão</span><span class="mi-price">R$ 39,90</span></div>
+            <div class="menu-item"><span class="mi-name">Ceviche de tilápia</span><span class="mi-price">R$ 39,90</span></div>
+            <div class="menu-item"><span class="mi-name">Ceviche de salmão com doritos</span><span class="mi-price">R$ 39,90</span></div>
+            <div class="menu-item"><span class="mi-name">Ceviche mexicano</span><span class="mi-price">R$ 39,90</span></div>
+            <div class="menu-item"><span class="mi-name">Ceviche de salmão na barquinha, 3 unidades</span><span class="mi-price">R$ 25,90</span></div>
+            <div class="menu-item"><span class="mi-name">Ceviche de tilápia na barquinha, 3 unidades</span><span class="mi-price">R$ 25,90</span></div>
+            <div class="menu-item"><span class="mi-name">Sunomono, 200g <span class="veg-badge">vegetariano</span></span><span class="mi-price">R$ 17,00</span></div>
+            <div class="menu-item"><span class="mi-name">Sunomono, 100g <span class="veg-badge">vegetariano</span></span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Carpaccio de salmão com azeite trufado</span><span class="mi-price">R$ 45,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-quentes">
+          <h2>Pratos quentes e lançamentos</h2>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Shimeji na manteiga <span class="veg-badge">vegetariano</span></span><span class="mi-price">R$ 27,90</span></div>
+            <div class="menu-item"><span class="mi-name">Shimeji na manteiga cremoso <span class="veg-badge">vegetariano</span></span><span class="mi-price">R$ 29,90</span></div>
+            <div class="menu-item"><span class="mi-name">Shimeji na manteiga ao molho de ostra</span><span class="mi-price">R$ 33,90</span></div>
+            <div class="menu-item"><span class="mi-name">Arroz shari <span class="veg-badge">vegetariano</span></span><span class="mi-price">R$ 7,90</span></div>
+            <div class="menu-item"><span class="mi-name">Teppan de salmão grelhado</span><span class="mi-price">R$ 37,90</span></div>
+            <div class="menu-item"><span class="mi-name">Teppan de salmão grelhado com arroz</span><span class="mi-price">R$ 41,90</span></div>
+            <div class="menu-item"><span class="mi-name">Salmão ao molho de ostra, 150g</span><span class="mi-price">R$ 42,90</span></div>
+            <div class="menu-item"><span class="mi-name">Salmão ao molho de ostra picante, 150g</span><span class="mi-price">R$ 42,90</span></div>
+            <div class="menu-item"><span class="mi-name">Salmão e tilápia ao molho de ostra, 150g</span><span class="mi-price">R$ 44,90</span></div>
+            <div class="menu-item"><span class="mi-name">Temaki salmão pop</span><span class="mi-price">R$ 29,90</span></div>
+            <div class="menu-item"><span class="mi-name">Harumaki ouro branco com nutella</span><span class="mi-price">R$ 17,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-poke">
+          <h2>Poke, individual</h2>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Poke de salmão</span><span class="mi-price">R$ 34,90</span></div>
+            <div class="menu-item"><span class="mi-name">Poke de salmão grelhado</span><span class="mi-price">R$ 34,90</span></div>
+            <div class="menu-item"><span class="mi-name">Poke meio a meio</span><span class="mi-price">R$ 34,90</span></div>
+            <div class="menu-item"><span class="mi-name">Poke skin</span><span class="mi-price">R$ 34,90</span></div>
+            <div class="menu-item"><span class="mi-name">Poke doritos</span><span class="mi-price">R$ 34,90</span></div>
+            <div class="menu-item"><span class="mi-name">Poke com 2 toppings</span><span class="mi-price">R$ 34,90</span></div>
+            <div class="menu-item"><span class="mi-name">Poke salmão pop</span><span class="mi-price">R$ 36,90</span></div>
+          </div>
+        </div>
+
+        <div class="menu-cat" id="cat-bebidas">
+          <h2>Bebidas</h2>
+          <div class="menu-items">
+            <div class="menu-item"><span class="mi-name">Coca Cola lata</span><span class="mi-price">R$ 6,00</span></div>
+            <div class="menu-item"><span class="mi-name">Coca Cola 600ml</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Coca Cola 1L</span><span class="mi-price">R$ 11,00</span></div>
+            <div class="menu-item"><span class="mi-name">Coca Cola 2L</span><span class="mi-price">R$ 15,00</span></div>
+            <div class="menu-item"><span class="mi-name">Coca Zero lata</span><span class="mi-price">R$ 6,00</span></div>
+            <div class="menu-item"><span class="mi-name">Coca Zero 600ml</span><span class="mi-price">R$ 9,90</span></div>
+            <div class="menu-item"><span class="mi-name">Coca Zero 1L</span><span class="mi-price">R$ 11,00</span></div>
+            <div class="menu-item"><span class="mi-name">Coca Zero 2L</span><span class="mi-price">R$ 15,00</span></div>
+            <div class="menu-item"><span class="mi-name">Sprite lata</span><span class="mi-price">R$ 6,00</span></div>
+            <div class="menu-item"><span class="mi-name">Fanta laranja lata</span><span class="mi-price">R$ 6,00</span></div>
+            <div class="menu-item"><span class="mi-name">Água sem gás, 500ml</span><span class="mi-price">R$ 5,00</span></div>
+            <div class="menu-item"><span class="mi-name">Água com gás, 500ml</span><span class="mi-price">R$ 5,00</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="wrap">
+      <div class="allergy-note">
+        <strong>Alérgenos e restrições.</strong> A casa trabalha com peixe cru, crustáceos, glúten, soja, ovos e laticínios em várias preparações da cozinha. Avise a equipe pelo WhatsApp sobre qualquer alergia ou restrição antes de fechar o pedido, os itens marcados como vegetarianos não garantem ausência de contaminação cruzada.
+      </div>
+    </div>
+  </section>
+
+  <section id="eventos" aria-labelledby="eventos-h">
+    <div class="wrap">
+      <div class="events">
+        <figure class="events-photo">
+          <img src="images/detalhe_sushi.jpg" alt="Detalhe de barca de sushi montada para encomenda de evento, foto real da casa." width="1440" height="1660">
+        </figure>
+        <div class="events-copy">
+          <h2 id="eventos-h">Barcas sob encomenda pra qualquer motivo de festa</h2>
+          <p>A casa monta barcas de sushi pra eventos com antecedência combinada. Peça pelo direct do Instagram ou pelo WhatsApp e feche o orçamento antes da data.</p>
+          <ul>
+            <li>Aniversários</li>
+            <li>Casamentos</li>
+            <li>Confraternizações</li>
+            <li>Eventos corporativos</li>
+            <li>Festas em geral</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/5518996727084" target="_blank" rel="noopener">Orçar minha festa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="trust" aria-labelledby="trust-h">
+    <div class="wrap">
+      <div>
+        <div class="section-head" style="margin-bottom:24px;">
+          <h2 id="trust-h">O que dizem depois de pedir</h2>
+        </div>
+        <div class="gallery-grid" aria-label="Fotos reais dos pratos">
+          <a href="https://www.instagram.com/lealsushibar/" target="_blank" rel="noopener">
+            <img src="images/hot_roll_especial.jpg" alt="Hot roll especial do Leal Sushi Bar, foto real do Instagram da casa." loading="lazy">
+          </a>
+          <a href="https://www.instagram.com/lealsushibar/" target="_blank" rel="noopener">
+            <img src="images/uramaki_california.jpg" alt="Uramaki California do Leal Sushi Bar, foto real do Instagram da casa." loading="lazy">
+          </a>
+          <a href="https://www.instagram.com/lealsushibar/" target="_blank" rel="noopener">
+            <img src="images/detalhe_sushi.jpg" alt="Detalhe de sushi do Leal Sushi Bar, foto real do Instagram da casa." loading="lazy">
+          </a>
+        </div>
+      </div>
+      <div class="rating-block">
+        <div class="rating-num">4,4</div>
+        <div class="rating-sub">Google, 35 avaliações de clientes</div>
+        <div class="review-quote">
+          <p>"Great sushi. Top!"</p>
+          <cite>Jay Forney, avaliação no Google</cite>
+        </div>
+        <ul class="sources-list">
+          <li><b>aiqfome:</b> 4,9 de 5, 240 avaliações</li>
+          <li><b>Restaurant Guru:</b> 4,5 de 5, 42 avaliações</li>
+          <li><b>Facebook:</b> 5 de 5, 8 avaliações</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="visita" class="visit" aria-labelledby="visita-h">
+    <div class="wrap">
+      <div class="visit-block">
+        <div class="section-head" style="margin-bottom:20px;">
+          <h2 id="visita-h">Endereço e horário</h2>
+        </div>
+        <p>Rua Dorival Rodrigues de Barros, 1396, Centro, Lucélia, SP, CEP 17780-000.</p>
+        <table class="hours-table">
+          <tbody>
+            <tr class="closed"><td>Segunda</td><td>Fechado</td></tr>
+            <tr class="closed"><td>Terça</td><td>Fechado</td></tr>
+            <tr><td>Quarta</td><td>18h30 às 22h30</td></tr>
+            <tr><td>Quinta</td><td>18h30 às 22h30</td></tr>
+            <tr><td>Sexta</td><td>18h30 às 22h30</td></tr>
+            <tr><td>Sábado</td><td>18h30 às 22h30</td></tr>
+            <tr><td>Domingo</td><td>18h30 às 22h30</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="visit-block">
+        <div class="section-head" style="margin-bottom:20px;">
+          <h2>Como pedir</h2>
+        </div>
+        <p>Retirada no balcão, mesa no salão ou entrega em Lucélia. Todo pedido passa pelo WhatsApp da casa, sem aplicativo próprio.</p>
+        <a class="btn btn-primary" href="https://wa.me/5518996727084" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="foot-brand">
+        <span class="brand-mark" aria-hidden="true">LSB</span>
+        Leal Sushi Bar
+      </div>
+      <p style="color:#9BA4C2; max-width:36ch;">Gastronomia oriental em Lucélia, SP, desde 2019. Presencial e delivery, de quarta a domingo.</p>
+    </div>
+    <div>
+      <h4>Contato</h4>
+      <ul class="foot-links">
+        <li><a href="tel:+5518996727084">(18) 99672-7084</a></li>
+        <li><a href="https://wa.me/5518996727084" target="_blank" rel="noopener">WhatsApp</a></li>
+        <li><a href="https://www.instagram.com/lealsushibar/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Casa</h4>
+      <ul class="foot-links">
+        <li><a href="#historia">A casa</a></li>
+        <li><a href="#cardapio">Cardápio</a></li>
+        <li><a href="#eventos">Encomendas e eventos</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>&copy; <span id="current-year">2026</span> Leal Sushi Bar. Demonstração independente de site, não afiliada oficialmente.</span>
+    <span>Lucélia, SP</span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
