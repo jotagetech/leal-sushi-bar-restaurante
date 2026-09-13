@@ -315,6 +315,10 @@ section{padding:88px 0;}
 }
 .sources-list b{color:var(--ink);}
 
+@media (max-width:860px){
+  .trust .wrap{grid-template-columns:1fr; gap:32px;}
+}
+
 /* ---------- gallery ---------- */
 .gallery-grid{
   display:grid; grid-template-columns:1.3fr 1fr 1fr; grid-auto-rows:190px; gap:14px;
@@ -332,6 +336,9 @@ section{padding:88px 0;}
 .visit{background:var(--surface-alt);}
 .visit .wrap{display:grid; grid-template-columns:1fr 1fr; gap:56px;}
 .visit-block h3{font-size:1.15rem;}
+@media (max-width:860px){
+  .visit .wrap{grid-template-columns:1fr; gap:36px;}
+}
 .hours-table{width:100%; border-collapse:collapse; font-size:.96rem;}
 .hours-table td{padding:7px 0; border-bottom:1px solid var(--line);}
 .hours-table td:last-child{text-align:right; font-weight:600;}
